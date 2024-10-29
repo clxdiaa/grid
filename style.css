@@ -1,0 +1,283 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+button{
+    background-color: #1677ff;
+    color: white;
+    border-radius: 20px;
+    margin-right: 15px;
+    height: 30px;
+    width: 70px;
+    border: 2px solid #1677ff;
+
+}
+/* Impostiamo la griglia principale */
+.grid-container {
+    display: grid;
+    grid-template-columns: 17% 83%; /* Prima colonna 30%, seconda colonna 70% */
+    /*grid-gap: 10px;*/
+    height: 100vh; /* Altezza della viewport */
+}
+
+/*.grid-container > div {*/
+    /*padding: 20px;*/
+    /*background-color: #f4f4f4;*/
+    /*border: 1px solid #000000;*/
+/*    }*/
+/* Stile per la colonna di sinistra */
+.col-left {
+    background-color: #1677ff;
+    color: white;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 24px;
+    display: grid;
+    grid-template-rows: 10% 35% 55%;
+    grid-gap: 15px;
+    }
+
+/* La colonna destra sarà una griglia con 4 righe di altezze in percentuali */
+.col-right {
+    display: grid;
+    grid-template-rows: 20% 80%; /* Percentuali per ogni riga */
+    /*grid-gap: 10px; /* Spazio tra le righe */
+    background-color: #f9f9f9;
+}
+
+/* Stile per le quattro righe */
+.row-a{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: grid;
+    grid-template-rows: 35% 65%;
+    border: #000000;
+    
+}
+.subrow-a{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: white;
+    padding: 20px;
+    padding-left: 35px;
+    
+}
+.subrow-b{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: white;
+    /*padding: 20px;*/
+    padding-left: 35px;
+
+    
+}
+.bottoni{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    /*padding-right: 35px;*/
+}
+.info{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    background-color: white;
+    padding: 20px;
+}
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    height: 5px;
+    width: 650px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: rgb(218, 218, 218);
+}
+.icons{
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.subtitle{
+    font-size: 13px;
+    margin: 4px;
+}
+.dx{
+    padding-left: 20px;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3px;
+    padding-top: 3px;
+}
+.row-b{
+    background-color:rgb(218, 218, 218);
+    color: black;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 5% 95%;
+    
+}
+.titoli{
+    background-color:rgb(218, 218, 218);
+    display: grid;
+    grid-template-columns: 75% 25%;
+    color:black ;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 6px;
+    padding: 8px;
+}
+.riquadri{
+    background-color: rgb(218, 218, 218);
+    padding-top: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 37% 37% 26%;
+}
+.riqone{
+    background-color: rgb(218, 218, 218);
+    display: grid;
+    grid-template-rows: 34% 32% 34%;
+    padding: 15px;
+    grid-gap: 10px;
+
+}
+.riqtwo{
+    background-color: rgb(218, 218, 218);
+    display: grid;
+    grid-template-rows: 34% 32% 34%;
+    padding: 15px;
+    grid-gap: 10px;
+}
+.riqthree{
+    background-color:rgb(218, 218, 218);
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 15px;
+    grid-gap: 10px;
+}
+.quadone{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 80% 20%;
+    padding: 15px;
+    margin: 5px;
+    border-left: 10px solid rgb(255, 188, 31);
+    border-radius: 10px;
+}
+.parole{
+    /*justify-content: center;*/
+    /*text-align: center;*/
+    font-size: 8px;
+    color: #8b8b8b;
+    margin-top: 3px;
+    padding-top: 0px;
+    
+}
+.faccine{
+    text-align: right;
+}
+p{
+    margin: 0;
+}
+.icona{
+    color: #8b8b8b;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.grassetto{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.annunci{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 32% 32% 36%;
+    padding: 10px;
+    
+}
+.grass{
+    font-weight: bold;
+    font-size: 12px;
+
+}
+.words{
+    font-size: 10px;
+    color: #8b8b8b;
+    margin-top: 3px;
+}
+.ann{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid grey;
+    margin: 5px;
+    padding: 10px;
+}
+.annfin{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+}
+.trend{
+    background-color:rgb(218, 218, 218);
+    display: grid;
+    grid-template-rows: 10% 90%;
+   /* padding: 10px;*/
+}
+.tit{
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:rgb(218, 218, 218);
+    padding: 2px;
+
+}
+.persone{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    align-items: center;
+    margin: 5px;
+}
+.personaggi{
+    color: blue;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.nickname{
+    color: black;
+    font-size: 12px;
+}
+.attribute{
+    color: #8b8b8b;
+    margin-top: 3px;
+    font-size: 12px;
+}
+.foto{
+    font-size: 26px;
+}
+
+.row-one{
+    font-size: 28px;
+}
+
+.row-two{
+    font-size: 15px;
+}
+.row-three{
+    font-size: 15px;
+    /*margin-top: 15px;*/
+}
+.nomi{
+    color: #000000;
+    font-weight: bold;
+    font-size: 23px;
+}
